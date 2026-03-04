@@ -22,3 +22,14 @@ jawaban : kode program itu sedang mengisi nilai atribut object pada indeks 0
 
 5. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
 jawaban : karena agar dapat dibedakan dan lebih rapi, kalau yang class mahasiswa berisi atribut atau mungkin biasanya ada method yang berhubungan dengan class main, kalau yang mahahasiswaDemo itu berisi main yang digunakan untuk menjalankan program.
+
+JAWABAN PERTANYAAN PERCOBAAN KE 2
+1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
+jawaban : sudah ditambahkan
+2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+        Mahasiswa11 [] arrayOfMahasiswa = new Mahasiswa11[3];
+        arrayOfMahasiswa[0].nim = "244107060033";
+        arrayOfMahasiswa[0].nama = "AGNES TITANIA KINANTI";
+        arrayOfMahasiswa[0].kelas = "SIB 1-E";
+        arrayOfMahasiswa[0].ipk = (float) 3.75;
+jawaban : Kode tersebut menyebabkan error karena objek Mahasiswa11 di dalam array belum diinstansiasi, tetapi langsung diakses atributnya. Jadinya program bingung, juga niai arraynya masi null.
