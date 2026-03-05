@@ -33,3 +33,16 @@ jawaban : sudah ditambahkan
         arrayOfMahasiswa[0].kelas = "SIB 1-E";
         arrayOfMahasiswa[0].ipk = (float) 3.75;
 jawaban : Kode tersebut menyebabkan error karena objek Mahasiswa11 di dalam array belum diinstansiasi, tetapi langsung diakses atributnya. Jadinya program bingung, juga niai arraynya masi null.
+
+JAWABAN PERTANYAAN PERCOBAAN KE 3
+1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+jawaban : iyaa bisaa, contohnya Mahasiswa(){} dan Mahasiswa (String n, String nm) {} ini adalah contoh constructor tanpa parameter dan dengan parameter 
+
+2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
+jawaban : sudahh di modiff
+
+3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+jawab : sudah di modif dan di commit
+
+4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+jawaban : sudah di commit dan di modif 
