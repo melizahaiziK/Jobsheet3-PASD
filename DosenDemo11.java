@@ -37,5 +37,14 @@ public class DosenDemo11 {
 
             no++;
         }
+
+        DataDosen11 data = new DataDosen11();
+
+        data.dataSemuaDosen(arrayOfDosen11);
+        data.jumlahDosenPerJenisKelamin(arrayOfDosen11);
+        data.rerataUsiaDosenPerJenisKelamin(arrayOfDosen11);
+        data.infoDosenPalingTua(arrayOfDosen11);
+        data.infoDosenPalingMuda(arrayOfDosen11);
+    
     }
 }
